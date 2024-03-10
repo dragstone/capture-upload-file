@@ -30,11 +30,13 @@ export default function Home() {
         <input
           type="file"
           accept="image/*"
-          capture="camera"
+          capture="environment"
           id="fileInput"
           onChange={handleClick}
         />
-        {image && <img src={image} alt="Captured" />}
+        {image && (
+          <img src={image} alt="Captured" width="200px" height="200px" />
+        )}
       </main>
     </>
   );
