@@ -30,7 +30,7 @@ export default function Home() {
         <input
           type="file"
           accept="image/*"
-          capture="environment"
+          // capture="environment"
           id="fileInput"
           onChange={handleClick}
         />
