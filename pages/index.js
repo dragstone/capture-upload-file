@@ -26,6 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
+        <h1>Upload files</h1>
         <input
           type="file"
           accept="image/*"
